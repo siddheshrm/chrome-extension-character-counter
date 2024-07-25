@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  position: relative;
+  max-width: 500px;
+  padding: 10px;
+  background-color: antiquewhite;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 400px;
+}
+
+.container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: blueviolet;
+}
+
+.container textarea {
+  margin-bottom: 10px;
+  resize: none;
+  height: 80%;
+  width: 100% !important;
+  padding: 10px;
+  font-size: 0.8rem;
+  border: none;
+  outline: none;
+}
+
+.container ::placeholder {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
+}
+
+.container p {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  color: red;
+}
+
+.container .count {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 5px;
+}
