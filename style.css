@@ -10,53 +10,85 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #ed6a5a;
 }
 
 .container {
-  position: relative;
-  max-width: 500px;
-  padding: 10px;
-  background-color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.section {
+  flex: 1 1 300px;
+  background-color: #f4f1bb;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  height: 300px;
+  height: auto;
   width: 400px;
 }
 
-.container h3 {
+.section h3 {
   font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: blueviolet;
+  color: #006d77;
 }
 
-.container textarea {
-  margin-bottom: 10px;
+.section textarea {
+  font-family: "Inter", sans-serif;
   resize: none;
-  height: 80%;
-  width: 100% !important;
+  width: 100%;
+  height: 150px;
   padding: 10px;
   font-size: 0.8rem;
   border: none;
   outline: none;
+  margin: 10px 0;
 }
 
-.container ::placeholder {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+.section textarea[readonly] {
+  font-family: "Inter", sans-serif;
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+}
+
+.section ::placeholder {
   color: black;
 }
 
-.container p {
+.section p {
   display: flex;
   align-items: center;
   font-size: 1rem;
-  color: red;
+  color: #006d77;
 }
 
-.container .count {
+.section .count {
   font-size: 1rem;
   font-weight: 500;
   margin-left: 5px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #f4d35e;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkviolet;
+  color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    gap: 0;
+  }
 }

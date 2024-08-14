@@ -1,6 +1,8 @@
 ## Character Count Chrome Extension
 
-A simple Chrome extension to count the number of characters in a text area. This extension provides a pop-up window where users can input text, and it will display the total number of characters.
+A simple Chrome extension to count the number of
+characters entered in the given text area and minify
+CSS and JavaScript.
 
 ### Installation
 
