@@ -1,8 +1,6 @@
-## Character Count Chrome Extension
+# Character Count Chrome Extension
 
-A simple Chrome extension to count the number of
-characters entered in the given text area and minify
-CSS and JavaScript.
+A simple Chrome extension to count the number of characters entered in the given text area and minify CSS and JavaScript.
 
 ### Installation
 
@@ -12,9 +10,13 @@ CSS and JavaScript.
 4.  Click "Load unpacked" and select the directory where you cloned the repository.
 5.  The extension should now appear in your Chrome extensions list.
 
+### Live Demo
+
+- The project is hosted at [GitHub Pages](https://siddheshrm.github.io/chrome-extension-character-counter/)
+
 ### Screenshot
 
-![Chrome Extension](media/chrome-extension.png)
+![Chrome Extension](media/chrome-extension-screenshot.png)
 
 ### About Me
 

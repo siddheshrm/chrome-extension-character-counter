@@ -21,6 +21,13 @@ body {
   width: 100%;
 }
 
+h1 {
+  color: #2c2c2c;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
 .section {
   flex: 1 1 300px;
   background-color: #f4f1bb;
@@ -80,6 +87,7 @@ button {
   color: #000;
   border: none;
   cursor: pointer;
+  border-radius: 8px;
 }
 
 button:hover {
@@ -90,5 +98,10 @@ button:hover {
 @media screen and (max-width: 767px) {
   .container {
     gap: 0;
+  }
+
+  h1 {
+    font-size: 1rem;
+    padding: 15px;
   }
 }

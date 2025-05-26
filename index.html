@@ -4,20 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minify Tool with Character Counter</title>
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Code Minifier & Character Counter</title>
+    <link rel="icon" href="/media/icon-128.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container">
+        <h1>Code Minifier & Character Counter – Optimize Your Code!</h1>
+
+        <!-- Character Count -->
+        <div class="section">
+            <h3>Character Count</h3>
+            <textarea id="text-input" placeholder="Paste your text here..."></textarea>
+            <p>Character count: <span id="text-count">0</span></p>
+        </div>
+
+        <!-- CSS Minifier -->
         <div class="section">
             <h3>Minify CSS</h3>
             <textarea id="css-input" placeholder="Paste your CSS here..."></textarea>
@@ -28,6 +36,7 @@
             <p>Character count: <span id="css-count-minified">0</span></p>
         </div>
 
+        <!-- JavaScript Minifier -->
         <div class="section">
             <h3>Minify JavaScript</h3>
             <textarea id="js-input" placeholder="Paste your JavaScript here..."></textarea>
@@ -36,12 +45,6 @@
             <h4>Minified JavaScript Output</h4>
             <textarea id="minified-js-output" readonly></textarea>
             <p>Character count: <span id="js-count-minified">0</span></p>
-        </div>
-
-        <div class="section">
-            <h3>Character Count</h3>
-            <textarea id="text-input" placeholder="Paste your text here..."></textarea>
-            <p>Character count: <span id="text-count">0</span></p>
         </div>
     </div>
 
