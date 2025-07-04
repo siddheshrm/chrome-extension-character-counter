@@ -20,4 +20,4 @@ A simple Chrome extension to count the number of characters entered in the given
 
 ### About Me
 
-You can learn more about me and explore my other projects on my [personal portfolio website](https://siddheshmestri.online).
+You can learn more about me and explore my other projects on my [personal portfolio website](https://siddheshmestri.in).
